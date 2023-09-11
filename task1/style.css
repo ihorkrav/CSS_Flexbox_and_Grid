@@ -1,0 +1,27 @@
+#Article{
+    width: 27.3vw;
+  margin-top:-25px;
+  box-sizing: border-box;
+  padding:5px;
+    background-color: white;
+}
+body, html{
+    background-color:aqua;
+    height:100%;
+    width: 100%;
+}
+#element{
+    margin: 5px;
+}
+#wrapper{
+    height:100%;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 30vw 30vw 30vw;
+
+}
+img {
+    max-width: 100%;
+    width: 27.3vw;
+   
+}

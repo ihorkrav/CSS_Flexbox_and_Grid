@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+#message1{
+    grid-column:2;
+    position: relative;
+    
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #A8DDFD;
+    min-width: 0;
+    min-height: 0;    
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: 1px solid #97C6E3;
+    border-radius: 10px 10px 10px 0;
+}
+#message2{
+    grid-column:2;
+    position: relative;
+    
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #dbba13;
+    min-width: 0;
+    min-height: 0;    
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: 1px solid #97C6E3;
+    border-radius: 10px 10px 0 10px;
+}
+#user1{
+    display: flex;
+    justify-content: right;
+   grid-column:1;
+}
+#user2{
+    display:flex;
+    justify-content: left;
+    grid-column:3;
+}
+img{
+    width:60px;
+    height: 60px;
+}
+#wrapper{
+    min-width: 0;
+    min-height: 0;    
+    margin: 10%;
+    margin-bottom: 10%;
+    display:grid;
+    grid-template-rows: 20% 20% 20% 20% 20% 20% ;
+    grid-template-columns: repeate(3,40%);
+}
